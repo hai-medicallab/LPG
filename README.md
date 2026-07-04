@@ -10,7 +10,6 @@ git clone https://github.com/hai-medicallab/LPG.git
 ```
 This repository is based on PyTorch 2.0.1, CUDA 12.4 and Python 3.10. All experiments in our paper were conducted on NVIDIA RTX A6000 GPU with an identical experimental setting.
 ```
-
 pip install -r requirements.txt
 ```
 ## 2. Dataset
@@ -29,10 +28,7 @@ Data could be got at [Promise12](https://promise12.grand-challenge.org/),then ru
     ├── val.list
 ```
 
-```
-
 ## 3. Usage
-
 To train a model (Baeseline_name:SS-Net，BCP and DiffRect)
 
 ```bash
