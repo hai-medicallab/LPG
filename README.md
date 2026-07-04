@@ -1,9 +1,8 @@
 <div align="center">
-<h1> Semi-supervised Prostate Multi-Regional Semantic Segmentation with Patch-Based Plug-and-Play Correction Guidance</h1>
+  <h1>Semi-supervised Prostate Multi-Regional Semantic Segmentation with Patch-Based Plug-and-Play Correction Guidance</h1>
+  <br>
+  <img src="framework.png" alt="framework">
 </div>
-
-![image](framework.png)
-# Semi-supervised Prostate Multi-Regional Semantic Segmentation with Patch-Based Plug-and-Play Correction Guidance
 
 ## 1. Installation
 ```bash
@@ -16,7 +15,8 @@ pip install -r requirements.txt
 ```
 ## 2. Dataset
 Data could be got at [Promise12](https://promise12.grand-challenge.org/),then run python script to preprocess the data.
-
+<span style="color:red;">We will organize the HPH55 dataset and make it publicly available on the cloud after the paper is accepted.</span>
+```
 ├── ./Promise12
     ├── [data]
         ├── case00.h5
@@ -27,6 +27,7 @@ Data could be got at [Promise12](https://promise12.grand-challenge.org/),then ru
     ├── test.list
     ├── train_slices.list
     ├── val.list
+```
 
 ```
 ## 3. Usage
