@@ -30,15 +30,21 @@ Data could be got at [Promise12](https://promise12.grand-challenge.org/),then ru
 ```
 
 ```
+
 ## 3. Usage
-To train a model(Baeseline_name:SS-Net、BCP and DiffRect),
+
+To train a model (Baeseline_name:SS-Net，BCP and DiffRect)
+
 ```bash
 python ./Promise12_Baeseline_name_LPG_train.py  # for X training 
 ``` 
-To test a model,
+
+To test a model
+
 ```bash
 python ./test_Promise12.py  # for X testing
 ```
+
 ## Acknowledgements
 Our code is largely based on [SSNet](https://github.com/ycwu1997/SS-Net), [DiffRect](https://github.com/CUHK-AIM-Group/DiffRect), [BCP](https: //github.com/DeepMed-Lab-ECNU/BCP). Thanks for these authors for their valuable work, hope our work can also contribute to related research.
 
