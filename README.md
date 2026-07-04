@@ -42,5 +42,5 @@ python ./test_Promise12.py  # for X testing
 ```
 
 ## Acknowledgements
-Our code is largely based on [SSNet](https://github.com/ycwu1997/SS-Net), [DiffRect](https://github.com/CUHK-AIM-Group/DiffRect), [BCP](https: //github.com/DeepMed-Lab-ECNU/BCP). Thanks for these authors for their valuable work, hope our work can also contribute to related research.
+Our code is largely based on [SSNet](https://github.com/ycwu1997/SS-Net), [DiffRect](https://github.com/CUHK-AIM-Group/DiffRect), [BCP](https://github.com/DeepMed-Lab-ECNU/BCP). Thanks for these authors for their valuable work, hope our work can also contribute to related research.
 
